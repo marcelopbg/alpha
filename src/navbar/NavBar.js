@@ -44,9 +44,9 @@ export default function SimpleTabs() {
           <Tab label="Criar Atividade" />
         </Tabs>
       </AppBar>
-      {value === 0 && <TabContainer>FireBoldo</TabContainer>}
-      {value === 1 && <TabContainer>Home</TabContainer>}
-      {value === 2 && <TabContainer>Criar Atividade</TabContainer>}
+      {value === 0 && <TabContainer>Conteudo de FireBoldo</TabContainer>}
+      {value === 1 && <TabContainer>Conteudo de  Home</TabContainer>}
+      {value === 2 && <TabContainer>Conteudo de Criar Atividade</TabContainer>}
     </div>
   );
 }
