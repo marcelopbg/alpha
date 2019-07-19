@@ -1,11 +1,14 @@
 import React from 'react';
 import UserRegister from './user/UserRegister';
-
+import Navbar from './navbar';
+import { BrowserRouter as Router } from 'react-router-dom';
 function App() {
   return (
-    <div className="App">
-      <UserRegister />
-    </div>
+    <Router>
+      <Navbar>
+        <UserRegister to="/register" />
+      </Navbar>
+    </Router>
   );
 }
 
